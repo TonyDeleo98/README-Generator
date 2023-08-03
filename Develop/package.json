@@ -1,14 +1,22 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "Professional README Generator Starter Code\r How to create a Professional README",
+  "description": "## Description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyDeleo98/README-Generator"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyDeleo98/README-Generator"
+  },
+  "homepage": "https://github.com/TonyDeleo98",
   "dependencies": {
     "inquirer": "^8.2.4"
   }
